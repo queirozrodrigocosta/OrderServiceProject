@@ -11,10 +11,12 @@ public class OrderResponse {
     private Long id;
     private List<Product> products;
     private double priceTotal;
+    private Integer status;
 
 
     public OrderResponse(Order order) {
         this.id = order.getId();
+        this.status = order.getStatus();
         this.products = order.getProducts();
     }
 
@@ -31,9 +33,8 @@ public class OrderResponse {
 		return priceTotal;
 	}
 
-	public void setProducts(List<Product> products) {
-		this.products = products;
+	public Integer getStatus() {
+		return status;
 	}
-    
     
 }

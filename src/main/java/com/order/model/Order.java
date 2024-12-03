@@ -10,6 +10,7 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private Integer status;
 
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Product> products;
@@ -30,4 +31,14 @@ public class Order {
     public void setProducts(List<Product> products) {
         this.products = products;
     }
+
+	public Integer getStatus() {
+		return status;
+	}
+
+	public void setStatus(Integer status) {
+		this.status = status;
+	}
+    
+    
 }

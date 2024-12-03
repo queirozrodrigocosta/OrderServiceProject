@@ -21,6 +21,7 @@ public class OrderService {
     public OrderResponse createOrder(OrderRequest orderRequest) {
         Order order = new Order();
         order.setProducts(orderRequest.getProducts());
+        order.setStatus(1);
         order = orderRepository.save(order);
         return new OrderResponse(order);
     }
