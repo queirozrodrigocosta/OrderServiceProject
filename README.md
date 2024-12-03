@@ -9,11 +9,11 @@ Requisitos:
 
 Para instalar dependências:
 
-    ./mvnw dependency:resolve
+    ./mvn clean install
 
 Para executar:
 
-    ./mvnw spring-boot:run
+    ./mvn spring-boot:run
 
 # Acesso ao Banco Dados H2
 
