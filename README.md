@@ -34,4 +34,4 @@ Password: password
 	}
 
 	- Consultar Pedidos: GET /orders
-		- O serviço retorna todos os pedidos a soma total dos produtos de cada um
+		- O serviço retorna todos os pedidos e a soma total dos produtos de cada um
