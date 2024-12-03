@@ -1,10 +1,10 @@
-package com.order.dto;
+package com.orderserviceproject.order.dto;
 
 import java.util.List;
 import java.util.Objects;
 
-import com.order.model.Order;
-import com.order.model.Product;
+import com.orderserviceproject.order.model.Order;
+import com.orderserviceproject.order.model.Product;
 
 public class OrderResponse {
 

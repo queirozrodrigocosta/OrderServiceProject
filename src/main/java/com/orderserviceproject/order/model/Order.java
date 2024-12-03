@@ -1,4 +1,4 @@
-package com.order.model;
+package com.orderserviceproject.order.model;
 
 import javax.persistence.*;
 import java.util.List;

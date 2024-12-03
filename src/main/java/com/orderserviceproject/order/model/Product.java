@@ -1,4 +1,4 @@
-package com.order.model;
+package com.orderserviceproject.order.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,10 +1,10 @@
-package com.order.service;
+package com.orderserviceproject.order.service;
 
-import com.order.dto.OrderRequest;
-import com.order.dto.OrderResponse;
-import com.order.model.Order;
-import com.order.model.Product;
-import com.order.repository.OrderRepository;
+import com.orderserviceproject.order.dto.OrderRequest;
+import com.orderserviceproject.order.dto.OrderResponse;
+import com.orderserviceproject.order.model.Order;
+import com.orderserviceproject.order.model.Product;
+import com.orderserviceproject.order.repository.OrderRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
